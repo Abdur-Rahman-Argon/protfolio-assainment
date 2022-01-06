@@ -1,6 +1,19 @@
 .display-flex {
   display: flex;
 }
+.header {
+  margin-bottom: 30px;
+  height: 120px;
+  border-left: 4px solid rgb(255, 0, 0);
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  font-family: "Montagu Slab", serif;
+}
 .discription {
   width: 50%;
   margin: 150px 10px 30px 150px;
@@ -16,19 +29,7 @@ p {
 .text-color {
   color: orange;
 }
-.header {
-  margin-bottom: 30px;
-  height: 120px;
-  border-left: 4px solid rgb(255, 0, 0);
-  padding-left: 10px;
-  border-radius: 5px;
-}
-.header h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 60px;
-  font-family: "Montagu Slab", serif;
-}
+
 .btn {
   background-color: red;
   border-radius: 5px;
@@ -40,12 +41,14 @@ p {
   color: white;
   text-decoration: none;
 }
+
 .image-01 {
   width: 34%;
 }
 .image-01 img {
   width: 90%;
 }
+
 .section-2 h1 {
   text-align: center;
   font-size: 40px;
@@ -106,17 +109,17 @@ p {
   top: 0px;
   border-radius: 5px;
 }
+.image .image-3 {
+  position: relative;
+  float: right;
+  margin-right: 60;
+}
 .image .image-4 {
   width: 100%;
   position: absolute;
   right: 90px;
   top: 0px;
   border-radius: 5px;
-}
-.image .image-3 {
-  position: relative;
-  float: right;
-  margin-right: 60;
 }
 
 .footer {
@@ -129,4 +132,20 @@ p {
   margin: 0;
   font-family: "Lobster Two";
   font-size: 35px;
+}
+
+.last-section {
+  padding: 20px 40px;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  background-color: lavenderblush;
+  width: 1000px;
+}
+.last-section h1 {
+  margin: 0px;
+  width: 286px;
+  font-size: 50px;
+  border-bottom: 4px solid rebeccapurple;
+  color: cornflowerblue;
 }
