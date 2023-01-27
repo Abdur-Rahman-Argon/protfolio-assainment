@@ -1,4 +1,4 @@
-# protfolio Project
+# Protfolio Project
 
 ### Live-Site [Live-Link](https://shopping-early.web.app/)
 
